@@ -38,7 +38,6 @@ h1, h2, h3 {
 
 h1 {
   font-size: 2.5rem;
-  border-bottom: 2px solid var(--heading-color);
   padding-bottom: 0.5rem;
 }
 
@@ -105,4 +104,56 @@ strong {
   h3 {
     font-size: 1.25rem;
   }
+}
+
+/* Homepage specific styles */
+.hero {
+    text-align: center;
+    padding: 4rem 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.homepage h1 {
+  font-size: 2.5rem;
+  margin-top: .5rem;
+  padding-bottom: 1rem;
+}
+
+.homepage h2 {
+  font-weight: 300;
+  color: var(--text-color);
+}
+
+.app-icon {
+    width: 100px;
+    height: 100px;
+    border-radius: 32px;
+    margin-bottom: 2rem;
+}
+
+.headline {
+    font-size: 2.5rem;
+    line-height: 1.2;
+    margin-bottom: 2rem;
+    color: var(--heading-color);
+}
+
+.app-store-badge {
+    width: 200px;
+    transition: transform 0.2s ease;
+}
+
+.app-store-badge:hover {
+    transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+    .hero {
+        padding: 2rem 1rem;
+    }
+
+    .headline {
+        font-size: 2rem;
+    }
 } 
