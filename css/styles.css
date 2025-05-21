@@ -814,4 +814,25 @@ body.privacy-page .footer-links .separator:first-of-type {
     .article-content blockquote p {
         font-size: 1.1rem;
     }
+}
+
+/* App Store Badge Styles */
+.app-store-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 0;
+    width: 100%;
+    transition: transform 0.3s ease;
+}
+
+.app-store-container:hover {
+    transform: scale(1.05);
+}
+
+.app-store-container img {
+    width: 246px;
+    height: 82px;
+    vertical-align: middle;
+    object-fit: contain;
 } 
